@@ -2,6 +2,8 @@
 
 PowerUp! is an open source video game themed icon font created by Lewis Long.
 
+To see the icons visit: [http://lewislong.com/powerup]
+
 ___
 
 Here is a list of all available icons and their CSS class names.

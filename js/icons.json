@@ -1,0 +1,78 @@
+[
+	{
+		"name": "pu-bbomb",
+		"content": "e000"
+	},
+	{
+		"name": "pu-boo",
+		"content": "e001"
+	},
+	{
+		"name":"pu-bulletbill",
+		"content": "e002"
+	},
+	{
+		"name":"pu-lakitu",
+		"content": "e003"
+	},
+	{
+		"name":"pu-link",
+		"content": "e004"
+	},
+	{
+		"name":"pu-mushroom",
+		"content": "e00b"
+	},
+	{
+		"name":"pu-ctrl-nes",
+		"content": "e00c"
+	},
+	{
+		"name":"pu-ctrl-ps2",
+		"content": "e00d"
+	},
+	{
+		"name":"pu-ctrl-ps",
+		"content": "e00e"
+	},
+	{
+		"name":"pu-question-block",
+		"content": "e00f"
+	},
+	{
+		"name":"pu-shyguy",
+		"content": "e010"
+	},
+	{
+		"name":"pu-ctrl-snes",
+		"content": "e011"
+	},
+	{
+		"name":"pu-triforce",
+		"content": "e012"
+	},
+	{
+		"name":"pu-turtle-shell",
+		"content": "e013"
+	},
+	{
+		"name":"pu-warp-tunnel",
+		"content": "e014"
+	},
+	{
+		"name":"pu-yoshi-egg",
+		"content": "e015"
+	},
+	{
+		"name":"pu-yoshi-face",
+		"content": "e016"
+	},
+	{
+		"name":"pu-yoshi",
+		"content": "e017"
+	},
+	{
+		"name":"pu-zelda",
+		"content": "e018"
+	}
+]

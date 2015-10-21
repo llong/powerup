@@ -1,0 +1,130 @@
+html { font-size: 62.5%; }
+body { font-size: 1.6rem; }
+
+.icon-list > div {
+	margin-bottom: 1.5rem;
+}
+
+.display-icon {
+	margin-right: .8rem;
+	font-size: 2.4rem;
+}
+
+
+
+
+
+/* Icon Font */
+
+@font-face {
+	font-family: 'powerUp';
+	src:url('fonts/powerUp.eot?n9xii0');
+	src:url('fonts/powerUp.eot?n9xii0#iefix') format('embedded-opentype'),
+		url('fonts/powerUp.ttf?n9xii0') format('truetype'),
+		url('fonts/powerUp.woff?n9xii0') format('woff'),
+		url('fonts/powerUp.svg?n9xii0#powerUp') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="pu-"], [class*=" pu-"] {
+	font-family: 'powerUp';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.pu-bbomb:before {
+	content: "\e000";
+}
+.pu-boo:before {
+	content: "\e001";
+}
+.pu-bulletbill:before {
+	content: "\e002";
+}
+.pu-lakitu:before {
+	content: "\e003";
+}
+.pu-link:before {
+	content: "\e004";
+}
+.pu-mario .path1:before {
+	content: "\e005";
+	color: rgb(0, 0, 0);
+}
+.pu-mario .path2:before {
+	content: "\e006";
+	margin-left: -1em;
+	color: rgb(0, 0, 0);
+}
+.pu-mario .path3:before {
+	content: "\e007";
+	margin-left: -1em;
+	color: rgb(0, 0, 0);
+}
+.pu-mario .path4:before {
+	content: "\e008";
+	margin-left: -1em;
+	color: rgb(0, 0, 0);
+}
+.pu-mario .path5:before {
+	content: "\e009";
+	margin-left: -1em;
+	color: rgb(255, 255, 255);
+}
+.pu-mario .path6:before {
+	content: "\e00a";
+	margin-left: -1em;
+	color: rgb(255, 255, 255);
+}
+.pu-mushroom:before {
+	content: "\e00b";
+}
+.pu-ctrl-nes:before {
+	content: "\e00c";
+}
+.pu-ctrl-ps2:before {
+	content: "\e00d";
+}
+.pu-ctrl-ps:before {
+	content: "\e00e";
+}
+.pu-question-block:before {
+	content: "\e00f";
+}
+.pu-shyguy:before {
+	content: "\e010";
+}
+.pu-ctrl-snes:before {
+	content: "\e011";
+}
+.pu-triforce:before {
+	content: "\e012";
+}
+.pu-turtle-shell:before {
+	content: "\e013";
+}
+.pu-warp-tunnel:before {
+	content: "\e014";
+}
+.pu-yoshi-egg:before {
+	content: "\e015";
+}
+.pu-yoshi-face:before {
+	content: "\e016";
+}
+.pu-yoshi:before {
+	content: "\e017";
+}
+.pu-zelda:before {
+	content: "\e018";
+}
+

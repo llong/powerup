@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="powerUp">
+<head>
+	<meta charset="UTF-8">
+	<title>PowerUp! - A Video Game Icon Font</title>
+	<link rel="stylesheet" href="lib/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<nav class="navbar navbar-default">
+	<div class="container">
+		<div class="navbar-form">
+			<input type="text" ng-model="filterResults" placeholder="Search Icons">
+		</div>
+	</div>
+</nav>
+
+<div class="container">
+	<div class="col-sm-12"><h1>Icons</h1><hr/></div>
+	<div ng-controller="mainCtrl" class="icon-list">
+		<div ng-repeat="icon in icons | orderBy:name | filter:filterResults" class="col-sm-6">
+			<div class="{{icon.name}} pull-left display-icon"></div>
+			<span ng-bind="icon.name"></span>
+		</div>
+	</div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

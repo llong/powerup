@@ -4,23 +4,27 @@
 	<meta charset="UTF-8">
 	<title>PowerUp! - A Video Game Icon Font</title>
 	<link rel="stylesheet" href="lib/bootstrap.min.css">
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/style.css">
 
 </head>
-<body>
-<nav class="navbar navbar-default">
+<body ng-controller="mainCtrl">
+<header class="jumbotron">
 	<div class="container">
-		<div class="navbar-form">
-			<input type="text" ng-model="filterResults" placeholder="Search Icons">
+		<div class="col-md-offset-3 col-md-6 text-center">
+			<h1>PowerUp!</h1>
+			<h2>A Video Game Font</h2>
+			<button class="btn btn-lg btn-primary">Download v0.2</button>
+			<h4 ng-bind="'There are currently ' + icons.length + ' icons available' "></h4>
+			<input type="text" class="form-control" ng-model="filterResults" placeholder="Search Icons">
 		</div>
-	</div>
-</nav>
+</header>
 
 <div class="container">
-	<div class="col-sm-12"><h1>Icons</h1><hr/></div>
-	<div ng-controller="mainCtrl" class="icon-list">
-		<div ng-repeat="icon in icons | orderBy:name | filter:filterResults" class="col-sm-6">
-			<div class="{{icon.name}} pull-left display-icon"></div>
+
+	<div class="icon-list">
+
+		<div ng-repeat="icon in icons | orderBy:name | filter:filterResults" class="col-md-4 col-xs-6 text-center">
+			<div class="{{icon.name}} display-icon"></div>
 			<span ng-bind="icon.name"></span>
 		</div>
 	</div>
